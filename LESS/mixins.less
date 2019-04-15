@@ -1,0 +1,16 @@
+.button(@button-bg, @font-color) {
+    display: block;
+    margin: 0 10px 20px 10px;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding-top: 12px;
+    text-align: center;
+    width: 80%;
+    background-color: @button-bg;
+    color: @font-color;
+
+    @media @mobile {
+        width: 90%; 
+       }
+}
