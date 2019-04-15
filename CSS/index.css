@@ -169,9 +169,10 @@ img {
   margin: 0 auto;
 }
 nav {
-  width: 45%;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
+  align-content: center;
 }
 @media (max-width: 500px) {
   nav {
@@ -183,6 +184,7 @@ nav a {
   text-decoration: none;
   color: black;
   font-size: 1.6rem;
+  padding: 20px;
 }
 @media (max-width: 500px) {
   nav a {
