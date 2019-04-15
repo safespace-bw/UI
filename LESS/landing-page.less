@@ -1,29 +1,32 @@
-header {
-    background-color: @nav-bg;
-    width: 100%;
-}
+.container{
+    width: 1200px;
+    
 
-
-.topHalf {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-    .leftSide {
+    .topHalf {
+        width: 100%;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
 
-        h2 {
-            padding-bottom: 20px;
+        .leftSide {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h2 {
+                padding-bottom: 20px;
+            }
+
+            .btn {
+                .button(@eastern-blue, @white)
+            }
         }
 
-        .btn {
-            .button(@eastern-blue, white)
+        .topHalfImg {
+            width: 600px;
         }
     }
 
-    .topHalfImg {
-        width: 600px;
+    .bottomHalf {
+        padding: 20px;
     }
 }
