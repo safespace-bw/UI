@@ -301,6 +301,9 @@ img {
 .container .bottomHalf {
   padding: 20px;
 }
+.container .aboutUs {
+  padding: 20px;
+}
 footer {
   display: flex;
   justify-content: flex-start;
@@ -320,4 +323,36 @@ footer .copyright {
     width: 95%;
     margin-left: 15px;
   }
+}
+.meetUs {
+  padding: 20px;
+}
+.team {
+  margin: 20px 10%;
+  padding: 0 20px 25px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  background-color: white;
+  position: relative;
+  height: 50px;
+  overflow: hidden;
+  box-shadow: 2px 2px 2px lightgrey;
+}
+.team .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.team .expandButton {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  font-size: 12px;
+  color: grey;
+  cursor: pointer;
+  transform: translate(-50%);
+  background-color: white;
+}
+.article-open {
+  height: 400px;
 }
