@@ -191,3 +191,36 @@ nav a {
     padding: 0 10px;
   }
 }
+.topHalf {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.topHalf .leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.topHalf .leftSide h2 {
+  padding-bottom: 20px;
+}
+.topHalf .leftSide .btn {
+  display: block;
+  margin: 0 10px 20px 10px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  padding-top: 12px;
+  text-align: center;
+  width: 80%;
+  background-color: #87bfff;
+  color: white;
+}
+@media (max-width: 500px) {
+  .topHalf .leftSide .btn {
+    width: 90%;
+  }
+}
+.topHalf .topHalfImg {
+  width: 600px;
+}
