@@ -270,6 +270,10 @@ img {
   background-color: #87bfff;
   color: white;
 }
+.container .topHalf .leftSide .btn a {
+  text-decoration: none;
+  color: white;
+}
 @media (max-width: 800px) {
   .container .topHalf .leftSide .btn {
     width: 90%;
