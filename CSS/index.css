@@ -304,14 +304,6 @@ img {
 .container .aboutUs {
   padding: 20px;
 }
-.container .meetUs {
-  width: 100%;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-}
 footer {
   display: flex;
   justify-content: flex-start;
@@ -332,12 +324,38 @@ footer .copyright {
     margin-left: 15px;
   }
 }
-.team-tabs {
+.meetUs {
+  width: 100%;
+  padding: 20px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
-.team {
+.meetUs .team-navigator {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border-radius: 10px;
+  border: 2px solid #87bfff;
+}
+.meetUs .team-tabs {
+  display: flex;
+  background-color: #87bfff;
+}
+.meetUs .team-tabs .tab {
+  background-color: #87bfff;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.meetUs .team-tabs .tab:hover {
+  background-color: white;
+  color: #87bfff;
+}
+.meetUs .team {
   display: none;
 }
-.active-tab {
+.meetUs .active-tab {
   display: block;
 }
