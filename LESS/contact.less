@@ -14,8 +14,13 @@ input[type=submit] {
     color: @font-color;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
+
+    @media @tablet {
+        width: 100%;
+        
+    }
 }
 
 input[type=submit]:hover {
