@@ -14,8 +14,13 @@ input[type=submit] {
     color: @font-color;
     padding: 12px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
+
+    @media @tablet {
+        width: 100%;
+        
+    }
 }
 
 input[type=submit]:hover {
@@ -27,5 +32,5 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: @font-color;
     padding: 20px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Numans', sans-serif;
   }
