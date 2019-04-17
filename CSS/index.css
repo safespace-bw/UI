@@ -194,6 +194,10 @@ img {
     align-content: center;
   }
 }
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
 .navbar nav {
   width: 50%;
   display: flex;
