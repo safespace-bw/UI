@@ -198,6 +198,10 @@ img {
   text-decoration: none;
   color: black;
 }
+.navbar svg {
+  width: 60px;
+  height: 60px;
+}
 .navbar nav {
   width: 50%;
   display: flex;
