@@ -179,8 +179,6 @@ img {
   align-content: center;
   padding-left: 20px;
   padding-top: 20px;
-  background-color: #81d2c7;
-  border-radius: 10px;
 }
 @media (max-width: 800px) {
   .navbar {
