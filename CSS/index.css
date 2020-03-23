@@ -196,9 +196,18 @@ img {
   text-decoration: none;
   color: black;
 }
-.navbar svg {
-  width: 60px;
-  height: 60px;
+.navbar span {
+  display: flex;
+  align-items: center;
+}
+.navbar span a {
+  text-decoration: none;
+  color: black;
+  font-size: 4rem;
+}
+.navbar span img {
+  width: 100px;
+  height: 100px;
 }
 .navbar nav {
   width: 50%;
@@ -218,7 +227,7 @@ img {
   text-decoration: none;
   color: black;
   font-size: 1.6rem;
-  padding: 20px;
+  padding: 10%;
 }
 @media (max-width: 800px) {
   .navbar nav a {
@@ -233,7 +242,7 @@ img {
   }
 }
 .navbar nav a:hover {
-  color: white;
+  color: #54C6D2;
 }
 .container {
   width: 100%;
@@ -278,7 +287,7 @@ img {
   padding-top: 12px;
   text-align: center;
   width: 80%;
-  background-color: #87bfff;
+  background-color: #54C6D2;
   color: white;
 }
 .container .topHalf .leftSide .btn a {
@@ -292,7 +301,7 @@ img {
   }
 }
 .container .topHalf .leftSide .btn:hover {
-  background-color: #81d2c7;
+  background-color: #41C2E1;
 }
 @media (max-width: 800px) {
   .container .topHalf .leftSide {
@@ -327,12 +336,13 @@ footer {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  padding: 20px 20px 10px 20px;
 }
 footer .contactInfo p {
   font-size: 1.4rem;
 }
 footer .copyright {
+  color: white;
+  padding-top: 20%;
   text-align: center;
 }
 @media (max-width: 800px) {
@@ -354,21 +364,21 @@ footer .copyright {
   flex-direction: column;
   align-content: center;
   border-radius: 10px;
-  border: 2px solid #87bfff;
+  border: 2px solid #54C6D2;
 }
 .meetUs .team-tabs {
   display: flex;
-  background-color: #87bfff;
+  background-color: #54C6D2;
 }
 .meetUs .team-tabs .tab {
-  background-color: #87bfff;
+  background-color: #54C6D2;
   color: white;
   padding: 10px;
   border-radius: 10px;
 }
 .meetUs .team-tabs .tab:hover {
   background-color: white;
-  color: #87bfff;
+  color: #54C6D2;
 }
 .meetUs .team {
   display: none;
@@ -414,7 +424,7 @@ textarea {
   resize: vertical;
 }
 input[type=submit] {
-  background-color: #87bfff;
+  background-color: #54C6D2;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -428,7 +438,7 @@ input[type=submit] {
 }
 input[type=submit]:hover {
   background-color: white;
-  color: #87bfff;
+  color: #54C6D2;
 }
 .container2 {
   border-radius: 5px;
