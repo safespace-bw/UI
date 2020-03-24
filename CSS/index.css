@@ -179,6 +179,8 @@ img {
   align-content: center;
   padding: 1% 0 1% 2%;
   border-bottom: 1px solid #d3d3d3;
+  position: fixed;
+  background-color: white;
 }
 @media (max-width: 500px) {
   .navbar {
@@ -265,6 +267,7 @@ img {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  padding-top: 10%;
   padding-bottom: 5%;
 }
 @media (max-width: 800px) {
