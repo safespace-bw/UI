@@ -3,14 +3,9 @@
    display: flex;
    justify-content: space-between;
    align-content: center;
-   padding-left: 20px;
-   padding-top: 20px;
+   padding: 1% 0 1% 2%;
+   border-bottom: 1px solid rgb(211, 211, 211);
  
-
-   @media @tablet {
-      max-width: 95%;
-      margin-left: 15px;
-  }
 
   @media @mobile {
    flex-direction: column;
@@ -24,25 +19,34 @@
    span {
       display: flex;
       align-items: center;
-      
-      a {
-         font-family: 'Bungee', sans-serif;
-         text-decoration: none;
-         color: black;
-         font-size: 4rem;
-      }
+      width: 10%;
       img {
-         width: 100px;
-         height: 100px;
+         width: 50px;
+         height: 50px;
+      }
+      a {
+         text-decoration: none;
+         h3 {
+            font-family: 'Bungee', sans-serif;
+            color: black;
+            font-size: 2.5rem;
+            padding-bottom: 0;
+         }
+         p {
+            color: rgb(211, 211, 211);
+            font-size: .5rem;
+            padding-bottom: 0;
+            text-align: center;
+         }
       }
    }
 
    nav {
-      width: 50%;
+      width: 30%;
       display: flex;
-      justify-content: flex-end;
+      justify-content: space-between;
       align-content: center;
-      padding-bottom: 20px;
+      padding: 2%;
 
    
       @media @mobile {
@@ -55,7 +59,6 @@
          text-decoration: none;
          color: black;
          font-size: 1.6rem;
-         padding: 10%;
 
          @media @tablet {
             padding-left: 5px;
