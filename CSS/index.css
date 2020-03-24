@@ -141,7 +141,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Bungee', sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -201,6 +201,7 @@ img {
   align-items: center;
 }
 .navbar span a {
+  font-family: 'Bungee', sans-serif;
   text-decoration: none;
   color: black;
   font-size: 4rem;
