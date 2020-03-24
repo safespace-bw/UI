@@ -219,8 +219,8 @@ img {
 .navbar nav {
   width: 30%;
   display: flex;
-  justify-content: space-between;
-  align-content: center;
+  justify-content: flex-end;
+  align-items: baseline;
   padding: 2%;
 }
 @media (max-width: 500px) {
@@ -249,6 +249,33 @@ img {
 }
 .navbar nav a:hover {
   color: #54C6D2;
+}
+.navbar nav a .btn {
+  display: block;
+  margin: 0 10px 20px 10px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  padding-top: 12px;
+  text-align: center;
+  width: 80%;
+  background-color: #54C6D2;
+  color: white;
+  font-size: 1.6rem;
+  width: 100%;
+}
+.navbar nav a .btn a {
+  text-decoration: none;
+  color: white;
+}
+@media (max-width: 800px) {
+  .navbar nav a .btn {
+    width: 90%;
+    margin-left: 30px;
+  }
+}
+.navbar nav a .btn:hover {
+  background-color: #41C2E1;
 }
 .container {
   width: 100%;
